@@ -1,0 +1,3 @@
+{
+  "sling.filter.pattern": "/content/moduleA/.*?/(category-page|product-page)"
+}
