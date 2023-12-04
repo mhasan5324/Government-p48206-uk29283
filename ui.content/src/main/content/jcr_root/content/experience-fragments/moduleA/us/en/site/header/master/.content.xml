@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:tags="[]"
-        cq:template="/conf/moduleA/settings/wcm/templates/xf-web-variation"
+        cq:template="/conf/moduleATestBranch/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
@@ -17,18 +17,18 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="moduleA/components/navigation"
                 collectAllPages="false"
-                navigationRoot="/content/moduleA/us/en"
+                navigationRoot="/content/moduleATestBranch/us/en"
                 skipNavigationRoot="false"
                 structureDepth="1"/>
             <languagenavigation
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="moduleA/components/languagenavigation"
-                navigationRoot="/content/moduleA/us"
+                navigationRoot="/content/moduleATestBranch/us"
                 structureDepth="2"/>
             <search
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="moduleA/components/search"
-                searchRoot="/content/moduleA/us"/>
+                searchRoot="/content/moduleATestBranch/us"/>
         </root>
     </jcr:content>
 </jcr:root>
