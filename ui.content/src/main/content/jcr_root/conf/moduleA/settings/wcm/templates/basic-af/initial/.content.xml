@@ -3,7 +3,7 @@
           jcr:primaryType="cq:Page">
     <jcr:content
             cq:deviceGroups="[mobile/groups/responsive]"
-            cq:template="/conf/moduleA/settings/wcm/templates/basic-af"
+            cq:template="/conf/moduleABranchTest/settings/wcm/templates/basic-af"
             jcr:primaryType="cq:PageContent"
             jcr:lastModified="{Date}2021-03-24T18:22:20.809+05:30"
             sling:resourceType="fd/af/components/page2/aftemplatedpage"
@@ -21,7 +21,7 @@
                         css="logoImage"
                         enabled="{Boolean}true"
                         fileName="sample_logo.png"
-                        fileReference="/content/dam/moduleA/sample_logo.png"
+                        fileReference="/content/dam/moduleABranchTest/sample_logo.png"
                         guideNodeClass="guideImage"
                         imageRotate="0"
                         name="sample_logo_image"
@@ -52,7 +52,7 @@
                 guideCss="guideContainer"
                 guideNodeClass="guideContainerNode"
                 name="guide1"
-                themeRef="/content/dam/formsanddocuments-themes/moduleA/canvas-3-0"
+                themeRef="/content/dam/formsanddocuments-themes/moduleABranchTest/canvas-3-0"
                 useExistingAF="false">
             <layout
                     jcr:primaryType="nt:unstructured"
@@ -121,7 +121,7 @@
                                             alignment="guideFieldHorizontalAlignment"
                                             guideNodeClass="guideRadioButton"
                                             name="imagechoice1457080363345"
-                                            options="[Woman=/conf/moduleA/settings/wcm/templates/basic-af/initial/_jcr_content/guideContainer/rootPanel/items/basics/items/basics1/items/guideimagechoice2/file-1.png,Man=/conf/moduleA/settings/wcm/templates/basic-af/initial/jcr:content/guideContainer/rootPanel/items/basics/items/basics1/items/guideimagechoice2/file-2.png]">
+                                            options="[Woman=/conf/moduleABranchTest/settings/wcm/templates/basic-af/initial/_jcr_content/guideContainer/rootPanel/items/basics/items/basics1/items/guideimagechoice2/file-1.png,Man=/conf/moduleABranchTest/settings/wcm/templates/basic-af/initial/jcr:content/guideContainer/rootPanel/items/basics/items/basics1/items/guideimagechoice2/file-2.png]">
                                         <file-2.png/>
                                         <file-1.png/>
                                     </guideimagechoice2>
@@ -637,7 +637,7 @@
                                     jcr:title="Image"
                                     sling:resourceType="fd/af/components/guideimage"
                                     fileName="sample_terms.png"
-                                    fileReference="/content/dam/moduleA/sample_terms.png"
+                                    fileReference="/content/dam/moduleABranchTest/sample_terms.png"
                                     guideNodeClass="guideImage"
                                     name="image1456030886190">
                             </image1456030886190>

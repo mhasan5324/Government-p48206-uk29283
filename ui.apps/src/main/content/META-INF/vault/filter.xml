@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/apps/moduleA/clientlibs"/>
-    <filter root="/apps/moduleA/components"/>
-    <filter root="/apps/moduleA/i18n"/>
+    <filter root="/apps/moduleABranchTest/clientlibs"/>
+    <filter root="/apps/moduleABranchTest/components"/>
+    <filter root="/apps/moduleABranchTest/i18n"/>
 </workspaceFilter>

@@ -3,7 +3,7 @@
     xmlns:cq="http://www.day.com/jcr/cq/1.0" 
     xmlns:jcr="http://www.jcp.org/jcr/1.0" 
     jcr:primaryType="cq:Page">
-    <jcr:content cq:template="/conf/moduleA/settings/wcm/templates/catalog-page"
+    <jcr:content cq:template="/conf/moduleABranchTest/settings/wcm/templates/catalog-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Catalog Page" 
         sling:resourceType="moduleA/components/commerce/catalogpage"

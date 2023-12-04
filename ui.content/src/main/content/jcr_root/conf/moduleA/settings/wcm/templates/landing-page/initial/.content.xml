@@ -4,8 +4,8 @@
     xmlns:jcr="http://www.jcp.org/jcr/1.0" 
     jcr:primaryType="cq:Page">
     <jcr:content 
-        cq:allowedTemplates="[/conf/moduleA/settings/wcm/templates/(?!(landing|root)).*]"
-        cq:template="/conf/moduleA/settings/wcm/templates/root-page"
+        cq:allowedTemplates="[/conf/moduleABranchTest/settings/wcm/templates/(?!(landing|root)).*]"
+        cq:template="/conf/moduleABranchTest/settings/wcm/templates/root-page"
         jcr:primaryType="cq:PageContent" 
         jcr:title="Site root page" 
         sling:resourceType="moduleA/components/page"

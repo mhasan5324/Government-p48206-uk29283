@@ -12,7 +12,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Content Form"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/moduleA/components/form/button,/apps/moduleA/components/form/hidden,/apps/moduleA/components/form/options,/apps/moduleA/components/form/text]">
+                        components="[/apps/moduleABranchTest/components/form/button,/apps/moduleABranchTest/components/form/hidden,/apps/moduleABranchTest/components/form/options,/apps/moduleABranchTest/components/form/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </form-container>
                 </container>
@@ -211,7 +211,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Root"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:NORC ModuleA Project - Content,/apps/moduleA/components/form/container,group:NORC ModuleA Project - Structure]">
+                    components="[group:NORC ModuleA Project - Content,/apps/moduleABranchTest/components/form/container,group:NORC ModuleA Project - Structure]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -241,7 +241,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:NORC ModuleA Project - Content,/apps/moduleA/components/form/container]">
+                    components="[group:NORC ModuleA Project - Content,/apps/moduleABranchTest/components/form/container]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -279,7 +279,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="XF Root"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:NORC ModuleA Project - Content,/apps/moduleA/components/form/container]">
+                    components="[group:NORC ModuleA Project - Content,/apps/moduleABranchTest/components/form/container]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">

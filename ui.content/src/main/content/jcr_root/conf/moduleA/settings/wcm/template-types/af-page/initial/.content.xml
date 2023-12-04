@@ -13,7 +13,7 @@
             guideCss="guideContainer"
             guideNodeClass="guideContainerNode"
             actionType="fd/af/components/guidesubmittype/restendpoint"
-            themeRef="/content/dam/formsanddocuments-themes/moduleA/canvas-3-0"
+            themeRef="/content/dam/formsanddocuments-themes/moduleABranchTest/canvas-3-0"
             name="guide1">
             <layout
                 jcr:primaryType="nt:unstructured"

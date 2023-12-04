@@ -7,7 +7,7 @@
         jcr:title="en"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:template="/conf/moduleA/settings/wcm/templates/page-content"
+        cq:template="/conf/moduleABranchTest/settings/wcm/templates/page-content"
         sling:resourceType="moduleA/components/page"
     >
         <root

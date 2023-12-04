@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2019-03-26T14:36:02.480+02:00"
         cq:lastModifiedBy="admin"
-        cq:templateType="/conf/moduleA/settings/wcm/template-types/page"
+        cq:templateType="/conf/moduleABranchTest/settings/wcm/template-types/page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Category page"
         status="enabled"/>

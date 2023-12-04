@@ -18,8 +18,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.adobe.moduleA</groupId>
-        <artifactId>moduleA</artifactId>
+        <groupId>com.adobe.moduleABranchTest</groupId>
+        <artifactId>moduleABranchTest</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>

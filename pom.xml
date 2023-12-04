@@ -17,9 +17,9 @@
       
   <modelVersion>4.0.0</modelVersion>
       
-  <groupId>com.adobe.moduleA</groupId>
+  <groupId>com.adobe.moduleABranchTest</groupId>
       
-  <artifactId>moduleA</artifactId>
+  <artifactId>moduleABranchTest</artifactId>
       
   <packaging>pom</packaging>
       
@@ -35,7 +35,7 @@
             
     <module>core</module>
             
-    <module>ui.frontend</module>
+    <!--<module>ui.frontend</module>-->
              
     <module>ui.apps</module>
             
