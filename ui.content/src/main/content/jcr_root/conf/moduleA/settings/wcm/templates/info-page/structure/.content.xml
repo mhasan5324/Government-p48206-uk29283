@@ -1,32 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:template="/conf/moduleA/settings/wcm/templates/page-content"
+        cq:lastModified="{Date}2023-12-14T10:25:57.150-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/moduleA/settings/wcm/templates/info-page"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="moduleA/components/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="moduleA/components/container"
             layout="responsiveGrid">
-            <experiencefragment-header
+            <headercontainer
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="moduleA/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/moduleA/us/en/site/header/master"/>
+                sling:resourceType="moduleA/components/container"
+                editable="{Boolean}true"
+                layout="responsiveGrid">
+                <header
+                    jcr:lastModified="{Date}2023-07-06T21:47:04.288-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="moduleA/components/containers/header">
+                    <navigation
+                        jcr:lastModified="{Date}2023-07-26T19:22:59.925Z"
+                        jcr:lastModifiedBy="Abraham-Tina@norc.org"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="moduleA/components/dynamic-content/navigation"
+                        collectAllPages="false"
+                        disableShadowing="false"
+                        navigationRoot="/content/moduleA/us/en"
+                        structureDepth="1"
+                        structureStart="1"/>
+                    <logo
+                        jcr:lastModified="{Date}2023-10-11T00:51:58.761Z"
+                        jcr:lastModifiedBy="Abraham-Tina@norc.org"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="moduleA/components/interactive-media/logo"
+                        alt="AmplifyAAPI Logo"
+                        altValueFromDAM="false"
+                        altValueFromPageImage="false"
+                        dmProfile="1673382938331"
+                        fileReference="/content/dam/amplifyaapi/images/AmplifyAAPI_Logo_REV.svg"
+                        hideImage="false"
+                        isDecorative="false"
+                        linkPath="/content/amplifyaapi/us/en"
+                        linkTarget="_self"
+                        mobileImage="/content/dam/non-dynamic-logos/norc-solutions-logos/AmplifyAAPI_Logo_REV.svg"/>
+                    <image
+                        cq:styleIds="[,,]"
+                        jcr:lastModified="{Date}2023-10-12T08:50:11.931Z"
+                        jcr:lastModifiedBy="li-songmei@norc.org"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="moduleA/components/interactive-media/image"
+                        altValueFromDAM="true"
+                        altValueFromPageImage="true"
+                        dmProfile="1657636860613"
+                        fileReference="/content/dam/non-dynamic-logos/norc-solutions-logos/AmplifyAAPI_Logo_REV.svg"
+                        hideImage="false"
+                        isDecorative="false"
+                        linkPath="/content/amplifyaapi/us/en"
+                        linkTarget="_self"/>
+                </header>
+            </headercontainer>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="moduleA/components/container"
                 layout="responsiveGrid">
-                <title
+                <herobanner
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="moduleA/components/title"
+                    sling:resourceType="/apps/platform/components/marketing/hero-banner/v1/hero-banner"
                     editable="{Boolean}true"/>
+                <faqaccordion
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="/apps/amplifyaapi/components/marketing/accordion"
+                    editable="{Boolean}true"
+                    layout="responsiveGrid"/>
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="moduleA/components/container"
                     editable="{Boolean}true"
                     layout="responsiveGrid"/>
+                <container_908906772
+                    jcr:created="{Date}2023-12-14T10:25:57.146-06:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-12-14T10:25:57.146-06:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="moduleA/components/container"/>
             </container>
             <experiencefragment-footer
                 jcr:primaryType="nt:unstructured"

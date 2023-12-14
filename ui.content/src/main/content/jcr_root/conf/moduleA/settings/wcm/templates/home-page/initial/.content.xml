@@ -9,17 +9,81 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="moduleA/components/container"
             layout="responsiveGrid">
+            <headercontainer
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="moduleA/components/container"
+                    editable="{Boolean}true"
+                    layout="responsiveGrid">
+                <header
+                        jcr:lastModified="{Date}2023-07-06T21:47:04.288-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="moduleA/components/containers/header">
+                    <navigation
+                            jcr:lastModified="{Date}2023-07-26T19:22:59.925Z"
+                            jcr:lastModifiedBy="Abraham-Tina@norc.org"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="moduleA/components/dynamic-content/navigation"
+                            collectAllPages="false"
+                            disableShadowing="false"
+                            navigationRoot="/content/moduleA/us/en"
+                            structureDepth="1"
+                            structureStart="1"/>
+                    <logo
+                            jcr:lastModified="{Date}2023-10-11T00:51:58.761Z"
+                            jcr:lastModifiedBy="Abraham-Tina@norc.org"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="moduleA/components/interactive-media/logo"
+                            alt="AmplifyAAPI Logo"
+                            altValueFromDAM="false"
+                            altValueFromPageImage="false"
+                            dmProfile="1673382938331"
+                            fileReference="/content/dam/amplifyaapi/images/AmplifyAAPI_Logo_REV.svg"
+                            hideImage="false"
+                            isDecorative="false"
+                            linkPath="/content/amplifyaapi/us/en"
+                            linkTarget="_self"
+                            mobileImage="/content/dam/non-dynamic-logos/norc-solutions-logos/AmplifyAAPI_Logo_REV.svg"/>
+                    <image
+                            cq:styleIds="[,,]"
+                            jcr:lastModified="{Date}2023-10-12T08:50:11.931Z"
+                            jcr:lastModifiedBy="li-songmei@norc.org"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="moduleA/components/interactive-media/image"
+                            altValueFromDAM="true"
+                            altValueFromPageImage="true"
+                            dmProfile="1657636860613"
+                            fileReference="/content/dam/non-dynamic-logos/norc-solutions-logos/AmplifyAAPI_Logo_REV.svg"
+                            hideImage="false"
+                            isDecorative="false"
+                            linkPath="/content/amplifyaapi/us/en"
+                            linkTarget="_self"/>
+                </header>
+            </headercontainer>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="moduleA/components/container"
                 layout="responsiveGrid">
-                <title
+                <herobanner
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="moduleA/components/title"/>
-                <container
+                    sling:resourceType="/apps/platform/components/marketing/hero-banner/v1/hero-banner"/>
+                <threecard
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="moduleA/components/container"
+                    sling:resourceType="/apps/rx-supplychain/components/dynamic-content/project-list"
                     layout="responsiveGrid"/>
+                <threecolumn
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="/apps/norc/components/containers/columncontainer"
+                    layout="responsiveGrid"/>
+                <threevideo
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="/apps/platform/components/containers/sectionContainer/v1/sectionContainer"
+                    layout="responsiveGrid"/>
+                <container
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="moduleA/components/container"
+                        editable="{Boolean}true"
+                        layout="responsiveGrid"/>
             </container>
         </root>
     </jcr:content>
