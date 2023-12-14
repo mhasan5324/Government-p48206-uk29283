@@ -1,0 +1,31 @@
+<header class="cmp-amplifyaapi-header">
+	<!-- this anchor tag will be used for skipping the main menu -->
+    <a href="#skipToContent" class="cmp-amplifyaapi-header__main-content">
+        ${'Skip to Main content' @i18n}
+    </a>
+    <div class="cmp-amplifyaapi-header__container">
+        <div class="cmp-amplifyaapi-header__inner-contain">
+            <div class="cmp-amplifyaapi-header__logo-contain">
+                <sly data-sly-resource="${@ path='image', resourceType='amplifyaapi/components/interactive-media/image'}"></sly>
+			</div>
+            <div class="cmp-amplifyaapi-header__hamburger">
+                <button
+                        class="cmp-amplifyaapi-header__hamburger-button"
+                        aria-expanded="false"
+                        aria-controls="trueNorthMenu"
+                        aria-label="Expand or collapse main menu"
+                ></button>
+            </div>
+            <!-- Start for main menu -->
+            <div class="cmp-amplifyaapi-header__nav-contain">
+                <sly data-sly-resource="${'navigation' @ resourceType='amplifyaapi/components/dynamic-content/navigation'}"></sly>
+                <nav class="cmp-amplifyaapi-header__utility-nav" id="utility-nav">
+                    <h2 class="sr-hidden">${'Utility Nav' @i18n}</h2>
+                    <div class="cmp-amplifyaapi-header__utility-nav-link-contain">
+                        <sly data-sly-resource="${'link' @ resourceType='amplifyaapi/components/marketing/link'}"></sly>
+                    </div>
+                </nav>
+            </div>
+		</div>
+	</div>
+</header>

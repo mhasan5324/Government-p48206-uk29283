@@ -1,0 +1,32 @@
+<div class="cmp-amplifyaapi-footer__top">
+    <div class="cmp-amplifyaapi-footer__top-container">
+        <div class="cmp-amplifyaapi-footer__top-inner-contain">
+            <div class="cmp-amplifyaapi-footer__top-logo-contain">
+                <sly data-sly-resource="${@ path='image', resourceType='amplifyaapi/components/interactive-media/image'}"></sly>
+            </div>
+            <div class="cmp-amplifyaapi-footer__top-content">
+                <sly data-sly-resource="${@ path='list', resourceType='amplifyaapi/components/dynamic-content/list'}"></sly>
+            </div>
+            <div class="cmp-amplifyaapi-footer__top-logo-txt-contain">
+								
+                <div class="cmp-amplifyaapi-footer__top-logo-txt">${"Powered by:" @ i18n}</div>
+                <div class="cmp-amplifyaapi-footer__top-logo-contains">
+                    <sly data-sly-resource="${@ path='image_1', resourceType='amplifyaapi/components/interactive-media/image'}"></sly>
+                    <sly data-sly-resource="${@ path='image_2', resourceType='amplifyaapi/components/interactive-media/image'}"></sly>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cmp-amplifyaapi-footer__bottom">
+    <div class="cmp-amplifyaapi-footer__bottom-container">
+        <div class="cmp-amplifyaapi-footer__bottom-inner-contain">
+            <div class="cmp-amplifyaapi-footer__bottom-list-contain">
+                <sly data-sly-resource="${@ path='list_1', resourceType='amplifyaapi/components/dynamic-content/list'}"></sly>
+            </div>
+            <div class="cmp-amplifyaapi-footer__bottom-copyright">
+                <sly data-sly-resource="${@ path='text', resourceType='amplifyaapi/components/marketing/text'}"></sly>
+            </div>
+        </div>
+    </div>
+</div>

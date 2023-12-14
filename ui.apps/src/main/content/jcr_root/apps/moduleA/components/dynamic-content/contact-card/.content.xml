@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:description="AmplifyAAPI - Add a contact card to a page or select who to contact by selecting a profile from a list"
+          jcr:primaryType="cq:Component"
+          jcr:title="Contact Card"
+          sling:resourceSuperType="platform/components/dynamic-content/contact-card/v1/contact-card"
+          componentGroup="AmplifyAAPI - Dynamic Content"/>

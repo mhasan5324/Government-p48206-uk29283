@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:template="/conf/moduleA/settings/wcm/templates/page-content"
+        cq:template="/conf/moduleA/settings/wcm/templates/contact-us"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="moduleA/components/page">
         <root
@@ -38,7 +38,7 @@
                             altValueFromDAM="false"
                             altValueFromPageImage="false"
                             dmProfile="1673382938331"
-                            fileReference="/content/dam/amplifyaapi/images/AmplifyAAPI_Logo_REV.svg"
+                            fileReference="/content/dam/moduleA/NORCLogo_Full_Grey.svg"
                             hideImage="false"
                             isDecorative="false"
                             linkPath="/content/amplifyaapi/us/en"
