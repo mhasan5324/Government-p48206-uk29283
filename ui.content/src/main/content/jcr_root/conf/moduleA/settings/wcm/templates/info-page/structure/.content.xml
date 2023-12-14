@@ -46,7 +46,7 @@
                         isDecorative="false"
                         linkPath="/content/amplifyaapi/us/en"
                         linkTarget="_self"
-                        mobileImage="/content/dam/non-dynamic-logos/norc-solutions-logos/AmplifyAAPI_Logo_REV.svg"/>
+                        mobileImage="/content/dam/moduleA/NORCLogo_Full_Grey.svg"/>
                     <image
                         cq:styleIds="[,,]"
                         jcr:lastModified="{Date}2023-10-12T08:50:11.931Z"
@@ -56,7 +56,7 @@
                         altValueFromDAM="true"
                         altValueFromPageImage="true"
                         dmProfile="1657636860613"
-                        fileReference="/content/dam/non-dynamic-logos/norc-solutions-logos/AmplifyAAPI_Logo_REV.svg"
+                        fileReference="/content/dam/moduleA/NORCLogo_Full_Grey.svg"
                         hideImage="false"
                         isDecorative="false"
                         linkPath="/content/amplifyaapi/us/en"
